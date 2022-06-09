@@ -1,0 +1,12 @@
+			HTML
+
+Site para otimizar as imagens, remove coisas desnecessárias:
+
+site: https://tinypng.com/
+
+
+			CSS
+
+box model = margin, border, padding, content
+
+border-radius: 50% ficara um circulo
