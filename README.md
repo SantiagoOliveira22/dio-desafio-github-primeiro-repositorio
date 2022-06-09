@@ -8,4 +8,4 @@ Repositório criado para o Desafio de Proejetos.
  - Para colocar link dentro do README.md
 
  ###Links úteis
-[Aqui vai o texto que vc quer colocar referente ao link- Sinxtaxe Basica de Marldown](aqui vai o link)
+[Aqui vai o texto que vc quer colocar referente ao link- Sinxtaxe Basica de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
