@@ -10,7 +10,3 @@ site: https://tinypng.com/
 box model = margin, border, padding, content
 
 border-radius: 50% ficara um circulo
-
-
-	Posicionando elementos com Flexbox em CSS
-
