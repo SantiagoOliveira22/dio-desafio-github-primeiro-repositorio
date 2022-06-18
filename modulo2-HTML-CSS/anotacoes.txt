@@ -14,3 +14,5 @@ border-radius: 50% ficara um circulo
 
 	Posicionando elementos com Flexbox em CSS
 
+Link das aulas e projeto:
+https://gitlab.com/karensantos/project-flexbox-dio
