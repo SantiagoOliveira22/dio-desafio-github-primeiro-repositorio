@@ -5,7 +5,3 @@ Repositório criado para o Desafio de Projetos.
 
 ## GIT/GITHUB 🧑‍💻
 
- - Para colocar link dentro do README.md
-
- ### Links úteis
-[Aqui vai o texto que vc quer colocar referente ao link- Sintaxe Basica de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
