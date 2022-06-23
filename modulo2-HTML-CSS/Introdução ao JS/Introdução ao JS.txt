@@ -1,0 +1,13 @@
+		Introdução ao Javascript
+
+Podemos usar o terminal node para debugar, rodar o comando abaixo dentro da pasta do projeto.
+
+node teste.js
+
+Dessa forma funciona igual o console do navegador.
+
+
+Arquitetura: estrutura do projeto
+
+assets = artificios, ferramentas que temos no nosso projeto, todos os arquivos que não são html = css, js, img...
+Somente o html fica na pasta raiz do projeto.
