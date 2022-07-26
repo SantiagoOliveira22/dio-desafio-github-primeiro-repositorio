@@ -1,0 +1,70 @@
+			Estrutura chaveada
+
+Map [chave, valor]
+
+Iterado no for of
+
+const myMao = new Map()
+
+
+Adicionar,ler e deletar
+
+adicionar set
+MyMap.set('apple', 'fruit');
+		chave    valor
+
+myMap.get("apple");
+//fruit
+
+myMap.delete("apple")
+//true
+
+myMap.get("apple")
+//undefined pq não existe mais
+
+-
+
+		Diferença entre Map vs Objeto
+
+Map qualquer tipo 
+Objeto tipo string
+Map possui length
+Mais facil de iterar
+valor desconhecido
+valores mesmo tipo
+
+-
+
+		Set
+
+Estrutura
+
+Armazenam valores únicos
+
+Adicionar, consultar e deletar
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+//true
+
+mySet.has(3);
+//false
+
+mySet.delete(5);
+
+
+		Set vs Array
+
+Valores unicos
+Em vez da propriedade length, consulta-se o numero de registro pela propriedade size
+Não possui os métodos map, filter, reduce, etc
+
+Array é mais flexivel
+
+-
+
+
+

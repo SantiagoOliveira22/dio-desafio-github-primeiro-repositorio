@@ -11,3 +11,24 @@ Arquitetura: estrutura do projeto
 
 assets = artificios, ferramentas que temos no nosso projeto, todos os arquivos que não são html = css, js, img...
 Somente o html fica na pasta raiz do projeto.
+
+
+			Frameworks / Bibliotecas
+
+VueJS
+Angular
+React - Biblioteca
+jQuery
+
+		Plataformas de suporte a programação
+
+MDN web docs mox://a - Documentação
+W3C - Documentação
+stack overflow - Fórum
+DIO - Plataforma de Cursos ...
+Github - Vitrine
+YouTube
+Twitter
+LinkedIn (Palavras chaves, tecnologias que trabalha)
+
+

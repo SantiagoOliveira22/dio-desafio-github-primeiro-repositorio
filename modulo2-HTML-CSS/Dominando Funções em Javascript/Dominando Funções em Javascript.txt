@@ -1,0 +1,146 @@
+		Tipos de funções
+
+Função autoinvocavél
+IIFE(Immediately Invoked Function Expressiion)
+
+(
+  function(){
+	let name = "DIO"
+	return name;
+}
+)();
+
+Podemos passar parametros e tbm podemos armazenar em um variável.
+
+-
+
+Callbacks
+
+Uma função passada como argumento para outra.
+
+
+-
+
+			Parametros
+
+Valores padrão
+
+Objeto "arguments" retorna todos os argumentos que foi passado - objeto iteravél
+
+
+- 
+
+		Arrays
+Usa quando chama a função
+Spread: uma forma de lidar separadamento com elementos.
+
+Usa quando declara a função
+Rest: Combina os argumentos em uma array
+
+-
+
+		Desestruturação de objeto
+
+passa dentro dos () da função o nome da chave entre {}
+function userId({id}){
+	return id;
+}
+
+-
+
+		Loops
+
+	if/else e switch
+
+Podemos return logo na execução. 
+
+	Switch
+
+Comparação de tipo e valor.
+
+-
+
+	For e While
+
+Loop dentro de elementos iteráveis (arrays, strings)
+
+
+ Para percorrer objeto
+For... in
+Loop entre propriedades enumeráveis de um objeto
+
+--
+for(prop in obj){
+}
+prop significa cada propriedade do objeto
+
+--
+E para acessar o valor de cada propriedade:
+console.log(obj[prop])
+
+
+--
+
+for .. of
+Loop entre estruturas iteráveis(arrays, strings)
+
+--
+
+	while
+
+Enquanto..
+
+Executa até que a condição seja falsa
+
+Do...while
+
+Executa até que a condição seja falsa mais sempre vai executar uma vez.
+
+--
+
+		this
+
+A palavra reservada this é uma referência de contexto.
+
+No exemplo, this refere-se ao objeto pessoa.
+
+
+
+-
+
+		Manipulando seu valor
+Funções
+
+Método Call
+Método Apply - argumentos será enviados dentro de um array
+Método bind - clona estrutura da sua função vai ser executado - variavel se torna função.
+
+
+-
+
+		Arrow functions
+Sintaxe
+
+const helloWorld = () => {
+	return "Hello World";
+}
+
+const helloWorld = () => "Hello World";
+
+-
+
+Não faz hosting
+
+-
+
+Outras restrições
+
+this sempre será o objeto global.
+Médotos para modificar seu valor não irão funcionar.
+
+Não exeiste objeto "arguments"
+
+O construtur (ex: new MeuObjeto()) também não pode ser utilizado.
+
+
+
