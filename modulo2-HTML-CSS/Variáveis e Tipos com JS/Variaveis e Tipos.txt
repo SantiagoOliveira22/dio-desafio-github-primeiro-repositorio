@@ -1,0 +1,128 @@
+Variavéis
+
+const com nome toda maiuscula e separada com _
+
+-
+
+Javascript escape
+\n
+-
+
+            Métodos de string
+concatenação
+Propriedade length
+Iterabilidade
+Formatação
+Indez de letras
+
+.split(" ")
+.include("palavra para verificar se exeiste na frase")
+.startsWith("Letra que começa a frase")
+.endsWith("Verificar ultimo caracter")
+.replace("muda isso", "por isso") / armazenar em outra variavel
+
+
+-
+
+             Number
+
+Operações aritméticas
+
+resto %
+par - num % 2 === 0
+impar - num % 2 !== 1
+
+--
+
+Math é um objeto
+Math.PI
+
+Math.floor(variavel) - arredonda para baixo
+Math.ceil(variavel) = arredonda para cima
+
+.toString() - converte o dado em uma string
+
+-
+
+		Booleans
+
+true ou false
+!true retorna p contrario: false
+!false retorna true
+
+-
+
+            Array
+
+Lista iterável de elementos
+
+.push() adiciona elemento no final do array
+.pop() remove elemento do final do array
+.shift() remove elemento do inicio do array
+.unshift() add elemento no inicio do array
+.includes(verifica se tem x elemento)
+.every(verificar se todos os elementos são iguais a tal elemento)
+.some(verificar se algum elemento é x)
+.reverse() muda a posição dos elementos 
+.length ver tamanho do array
+array[0] localiza posição do elemento
+
+Iterabilidade:
+fazer operações em cada um elemento do array
+
+-
+
+		Objetos
+
+Estrutura do objeto:
+
+chave: valor
+key: value
+
+let person = {
+	name: "John",
+	age: 20
+};
+
+Verificar as propriedades e valores de um objeto
+
+Object.values(obj - nome da variavel do objeto)
+
+Verificar aschaves de um objeto
+Objetc.keys(obj)
+
+
+Para verificar um dado do obejto 
+variavel.chave
+person.name
+
+let mom = "nameOfMom"
+Pega o valor de mom e Adicona valor na chave
+person[mom] = "Maria"
+
+-
+
+		Empty, undefined, null
+
+
+Valores falsos
+
+empty
+declarou vazio (0,"", []; {})
+
+null 
+não existe, de proposito
+
+undefined
+nem declarou, indefinido, não existe, declarou mais não atribuiu
+
+falsy, valores são tratados como false porém não são tratados como boolens
+
+
+
+
+
+
+
+
+
