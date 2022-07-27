@@ -1,0 +1,43 @@
+			Map, Filter e Reduce
+
+		Map
+Mapping Function
+
+Não modifica o original, será um novo array seu retorno
+-
+Sintaxe
+
+array.map(callback, thisArg) //this opcional
+  
+  callback(item, index, array)
+-
+
+Maps vs for Each
+
+Diferença valor retornado e se precisa de um array auxiliar para continuar as operações.
+
+-
+
+		Filter
+
+Cria novo array 
+Não modifica o array original
+retorna só o que passar no seu filtro
+
+Sintaxe
+
+array.filter(callback, thisArg) // this opcional
+
+
+-
+
+		Reduce
+
+Executa uma função em todos os elementos dos array, retornando um valor único. Pode retornar valor diferente do inicial.
+
+Sintaxe
+
+array.reduce(callbackFn, initialValue)
+
+// callback Função a ser executada a partir do acumulador
+// initialValue: valor sobre o qual o retorno final irá atual.
