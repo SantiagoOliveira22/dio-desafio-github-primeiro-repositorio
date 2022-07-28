@@ -1,0 +1,17 @@
+		Orientação a Objetos com Javascript
+
+O que é orientação a objeto:
+
+Paradigamas:
+
+Imperativo como resolver
+Declativo o que vc fazer
+
+objetos possuem uma série de propriedades.
+
+Pilares:
+Herança
+Polimorfismo
+Encapsulamento
+Abstração
+
