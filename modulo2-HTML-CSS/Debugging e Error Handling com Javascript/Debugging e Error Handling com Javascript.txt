@@ -1,0 +1,71 @@
+	Debugging e Error Handling com Javascript
+
+Tratamento de erros
+
+Tipos
+Tratamneto 
+Criando
+
+ECMAScript Error
+
+Erros que ocorrem em tempo de execução.
+Composto por 
+Mensagem
+Nome
+Linha
+Call Stack
+
+-
+
+DOMException
+
+Erros relaionados ao Document Object Model (DOM)
+Erro de estrutura na arvore dos elementos na web
+
+-
+
+Tratamentos:
+
+trhow e return
+
+Declaração try/catch
+
+Trhow:
+Trata o tipo invalido como um erro
+ex: Uncaught String inválido (Erro) aparece assim pois não tratamos o erro com um objeto.
+
+Try...catch:
+
+try - verificar se tem o erro
+catch - trata o erro como preferirmos - permite que manipulemos o erro
+
+
+Finally:
+
+try
+catch
+finally - instrução que pode ser chaamada independete de ter erro ou não
+Um bloco de código para ser executado no final
+
+-
+->
+
+Criando erro personalizado
+
+Manipular objeto Error
+
+Sintaxe
+const MeuErro = new Error('Mensagem Inválida');
+
+trhow MeuErro;
+
+-
+
+Podemos colocar um nome no erro
+const MeuErro = new Error('Mensagem Inválida');
+MeuErro.name = 'InvalidMessage';
+
+trhow MeuErro;
+
+
+
