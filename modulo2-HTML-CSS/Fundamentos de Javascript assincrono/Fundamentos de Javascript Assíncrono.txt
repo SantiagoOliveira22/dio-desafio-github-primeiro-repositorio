@@ -1,0 +1,20 @@
+Sua referência é DIOB2C-16481
+
+		Fundamentos de Javascript Assíncrono
+
+Assincrono - Que não ocorre ou não se efetiva ao mesmo tempo
+
+
+Promises - Promessas - Objeto de processamento assíncrono
+1.Pending
+2.Fulfilled
+3.Reject
+
+Como manipular - 
+
+
+Async/await
+
+async function - dizer que a função é assincrona
+
+await para o código para mudar. Ele para o código e fala vamos esperar essa promises para continuar a execução.
